@@ -29,3 +29,25 @@ console.log(`Your order total is $${total}.`);
 // avoid using the 'var' keyword to declare variables
 // console.log(oldMessage); // undefined, no error
 // var oldMessage = 'This is an old message!';
+
+/** Types and Operators */
+
+// numbers
+let price = 19.99;
+price = price + 1; // add
+price = price - 1; // subtract
+price = price * 3; // multiply
+price = price / 3; // divide
+let remainder = price % 5;
+let taxRate = 0.13;
+price++; // increment
+price--; // decrement
+
+console.log('The data type of price is:', typeof price);
+console.log('price:', price);
+console.log('remainder:', remainder);
+console.log('tax:', price * taxRate);
+console.log(price++) // be careful: will increment after logging
+console.log(++price);
+console.log(price--);
+console.log(--price);
